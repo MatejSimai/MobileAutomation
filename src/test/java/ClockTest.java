@@ -5,7 +5,7 @@ import pages.ClockPage;
 
 public class ClockTest extends BaseTest {
     @Test
-    public void test1(){
+    public void test_1_SetUpAlarm(){
 
         AlarmPage alarmPage = new AlarmPage(driver);
 
@@ -18,7 +18,7 @@ public class ClockTest extends BaseTest {
         alarmPage.isAlarmTurnedOn();
     }
     @Test
-    public void test2(){
+    public void test_2_AddHometownTime(){
 
         ClockPage clockPage = new ClockPage(driver);
 
@@ -28,7 +28,7 @@ public class ClockTest extends BaseTest {
         clockPage.checkAddedCity("Košice");
     }
     @Test
-    public void test3(){
+    public void test_3_SetUpBedtimeWokeUpTime(){
 
         BedtimePage bedtimePage = new BedtimePage(driver);
 
