@@ -1,5 +1,6 @@
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import java.net.MalformedURLException;
@@ -17,9 +18,9 @@ public class BaseTest {
         dc.setCapability("appium:automationName", "UiAutomator2");
         dc.setCapability("appium:appPackage", "com.google.android.deskclock");
         dc.setCapability("appium:appActivity", "com.android.deskclock.DeskClock");
-//        dc.setCapability("appium:app",System.getProperty("user.dir") + "/apps/Android-MyDemoAppRN.1.3.0.build-244.apk");
         driver = new AndroidDriver(new URL(appiumServerUrl), dc);
     }
+    @AfterTest
     public void quit(){
         driver.quit();
     }

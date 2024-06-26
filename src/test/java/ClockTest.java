@@ -32,9 +32,9 @@ public class ClockTest extends BaseTest {
 
         BedtimePage bedtimePage = new BedtimePage(driver);
 
-        bedtimePage.clickOnBadtimeTab();
+        bedtimePage.clickOnBedtimeTab();
         bedtimePage.clickOnGetStartedButton();
-        bedtimePage.setBadTime("7","30");
+        bedtimePage.setBedTime("7","30");
         bedtimePage.uncheckDays("Sunday");
         bedtimePage.uncheckDays("Saturday");
         bedtimePage.clickOnNextButton();
