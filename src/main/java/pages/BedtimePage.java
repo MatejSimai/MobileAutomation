@@ -17,10 +17,8 @@ public class BedtimePage {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofMillis(5000));
     }
-
     public void clickOnBadtimeTab(){
         driver.findElement(AppiumBy.id("com.google.android.deskclock:id/tab_menu_bedtime")).click();
-
     }
     public void clickOnGetStartedButton(){
         driver.findElement(AppiumBy.id("com.google.android.deskclock:id/fab_container")).click();

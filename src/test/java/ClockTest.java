@@ -38,6 +38,7 @@ public class ClockTest extends BaseTest {
         bedtimePage.uncheckDays("Sunday");
         bedtimePage.uncheckDays("Saturday");
         bedtimePage.clickOnNextButton();
+
         bedtimePage.setWokeUpTime("10","55");
         bedtimePage.uncheckDays("Sunday");
         bedtimePage.uncheckDays("Saturday");

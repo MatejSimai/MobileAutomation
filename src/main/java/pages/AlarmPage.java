@@ -15,7 +15,6 @@ public class AlarmPage {
     public AlarmPage(AndroidDriver driver){
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofMillis(5000));
-
     }
     public void clickOnAlarmTab(){
         driver.findElement(AppiumBy.id("com.google.android.deskclock:id/tab_menu_alarm")).click();
