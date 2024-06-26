@@ -1,8 +1,6 @@
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.AfterTest;
 
 import java.net.MalformedURLException;
 import java.net.URL;
