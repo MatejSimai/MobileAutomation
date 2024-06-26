@@ -2,7 +2,7 @@
 Tests were created to test functionality of built-in Clock app on Android mobile device
 
 ## Setup
-1. Clone the repository from git:
+Clone the repository from git:
   ```sh
    git clone https://github.com/MatejSimai/MobileAutomation.git
   ```
