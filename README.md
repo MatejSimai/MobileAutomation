@@ -18,7 +18,7 @@ Clone the repository from git:
       3. **Android Version** - Android 14.0 x86_64
       4. **API version** - 34
       5. **ABI version** - x86_64
-      6. **RAM - 2048 MB**
+      6. **RAM** - 2048 MB
       7. **Internal storage** - 6144 MB
       8. **SD card** - 512 MB
 - Appium server - http://0.0.0.0:4723/wd/hub/
