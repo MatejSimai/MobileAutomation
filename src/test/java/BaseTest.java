@@ -12,7 +12,6 @@ public class BaseTest {
     public void setup() throws MalformedURLException {
         String appiumServerUrl = "http://0.0.0.0:4723/wd/hub/";
 
-
         DesiredCapabilities dc = new DesiredCapabilities();
         dc.setCapability("platformName", "Android");
         dc.setCapability("appium:automationName", "UiAutomator2");

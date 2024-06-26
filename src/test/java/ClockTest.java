@@ -11,11 +11,11 @@ public class ClockTest extends BaseTest {
 
         alarmPage.clickOnAlarmTab();
         alarmPage.clickOnAddButton();
-        alarmPage.setTimeForAlarm("11","30","AM");
-        alarmPage.isAlarmTurnedOn();
+        alarmPage.setTimeForAlarm("9","30","AM");
         alarmPage.selectDay("Monday");
         alarmPage.selectDay("Tuesday");
         alarmPage.selectDay("Friday");
+        alarmPage.isAlarmTurnedOn();
     }
     @Test
     public void test2(){
